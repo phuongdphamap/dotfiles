@@ -1,4 +1,10 @@
 # .chezmoidata.toml
 font_size = 12
 terminal = "alacritty"
-plugins = ["git", "fish", "zoxide"]
+editor = "nvim"
+
+
+[packages]
+    # List of essentials for your 2026 Neovim/Fish setup
+    core = ["fish", "ripgrep", "fd", "fzf", "bat", "zoxide", "eza", "gh"]
+    ai = ["claude-code", "copilot-cli"]
