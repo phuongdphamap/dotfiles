@@ -1,0 +1,11 @@
+{{- $email := promptStringOnce . "email" "What is your email address" -}}
+{{- $osid := .chezmoi.os -}}
+
+[data]
+    email = {{ $email | quote }}
+    osid = {{ $osid | quote }}
+    # Professional Flag: Use this to toggle AI features in Neovim
+    ai_enabled = true 
+
+[data.git]
+    name = "Phuong D. Pham"

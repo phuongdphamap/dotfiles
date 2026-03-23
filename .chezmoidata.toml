@@ -1,0 +1,4 @@
+# .chezmoidata.toml
+font_size = 12
+terminal = "alacritty"
+plugins = ["git", "fish", "zoxide"]
